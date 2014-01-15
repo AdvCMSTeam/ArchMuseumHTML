@@ -1,6 +1,6 @@
 /*------------------------------RESET DEFAULT STYLES--------------------------------*/
 html,body                       { width:100%; height:100%; }
-body                            { padding:0; margin:0; font: bold 14px "Minion Pro", serif; background:#fff; color:#000; }
+body                            { padding:0; margin:0; font: bold 14px "Minion Pro"; background:#fff; color:#000; }
 div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
 	padding:0;
 	margin:0;
@@ -66,6 +66,7 @@ font-weight: normal;
 .header {
 	background: url(../images/head-bgr-1.png);
 	padding: 14px 14px 12px 34px;
+	float: left;
 }
 
 ul.language {
@@ -85,19 +86,18 @@ ul.language {
 	float: left;
 }
 
-.header h1 {
-	overflow: hidden;
-	padding: 30px 0 0 32px;
-	font: 34px "a_AlgeriusBlw", serif; 
-}
-
-.header h1 span {
-	float: right;	
+.header span.name {
+	float: left;
+	font-size: 34px;
+	text-indent: -100px;
+	padding: 40px 0 0 150px;
 }
 
 ul.menu-head {
 	text-align: right;
-	padding: 50px 0 0;
+	padding: 30px 0 0;
+	float: right;
+	
 }
 
 .menu-head li {
@@ -168,8 +168,8 @@ li.active a {
 	font-size: 20px;
 }
 
-.notice dd {
-	margin: 0 16px 26px 8px;
+.notice li {
+	margin: 0 16px 8px 8px;
 	font-size: 12px;
 	text-align: justify;
 	font-weight: normal;
@@ -179,11 +179,12 @@ li.active a {
 	text-align: center;
 	font-size: 14px;
 	color: #000;
+	padding: 0 0 4px;
 }
 
-.sidebar span.further {
-	float: right;
-	margin: 10px 46px 0 0;
+li.further {
+	text-align: right;
+	padding: 0 46px 0 0;
 }
 
 .sidebar .further a {
@@ -255,6 +256,7 @@ ul.pages {
 
 .pages li {
 	display: inline;
+	color: #5F4444;
 }
 
 .pages li a {
