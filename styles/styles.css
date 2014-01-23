@@ -32,30 +32,7 @@ a:hover                        { text-decoration:none; }
 .align-c                       { text-align:center !important; }
 .clear                         { clear:both; }
 
-@font-face { font-family: "Minion Pro";
-src: url(../fonts/Minion-Pro.ttf);
-}
-
-@font-face { font-family: "Arial Rounded MT Bold";
-src: url(../fonts/ARLRDBD.ttf);
-font-style: normal;
-font-weight: bold;
-}
-
-@font-face { font-family: "a_AlgeriusBlw";
-src: url(../fonts/a_AlgeriusBlw-Regular.ttf);
-font-style: normal;
-font-weight: normal;
-}
-
-
-/*
-@font-face { font-family: "PT Sans";
-src: url(../fonts/PT_Sans-Web-Regular.ttf);
-font-style: normal;
-font-weight: normal;
-
-}*/
+/*--------------------------------------------------------------*/
 
 .wrapper {
 	width: 1001px;
@@ -66,7 +43,6 @@ font-weight: normal;
 .header {
 	background: url(../images/head-bgr-1.png);
 	padding: 14px 14px 12px 34px;
-	float: left;
 }
 
 ul.language {
@@ -82,23 +58,22 @@ ul.language {
 	font: bold 15px Arial;
 }
 
-.header img {
+span.logo {
 	float: left;
 }
 
 .header span.name {
-	float: left;
+	font-style: "AquilineTwo Regular", Arial, sans-serif;
 	font-size: 34px;
 	text-indent: -100px;
-	padding: 40px 0 0 150px;
+	margin: 50px 0 0 150px;
 	color: #F1E6A2;
+	display: inline-block;
 }
 
 ul.menu-head {
 	text-align: right;
 	padding: 30px 0 0;
-	float: right;
-	
 }
 
 .menu-head li {
@@ -118,7 +93,7 @@ ul.menu-head {
 
 .sidebar form {
 	text-align: center;
-	margin: 16px 0 0;
+	margin: 16px 0;
 }
 
 .sidebar input {
@@ -143,7 +118,7 @@ ul.sidebar-menu {
 .sidebar-menu li {
 	margin: 0 0 0 4px;
 	padding: 2px 0 2px 18px;
-	background: url(../images/list-decor.png) left center no-repeat;
+	background: url(../images/list-decor.png) left top no-repeat;
 }
 
 .sidebar-menu li a {
@@ -157,8 +132,22 @@ ul.sidebar-menu {
 	color: #fff;
 }
 
+.active .sidebar-submenu a {
+	color: #602A2A;
+	padding: 2px 0 2px 18px;
+	margin: 0 0 0 -28px;
+}
+
 li.active a {
 	color: #fff;
+}
+
+.sidebar-submenu li {
+	background: none;
+}
+
+.sidebar-submenu li a:hover {
+	background: url(../images/list-decor.png) left top no-repeat;
 }
 
 .notice h3 {
@@ -205,6 +194,7 @@ li.further {
 	overflow: hidden;
 	background: url(../images/main-bgr.png);
 	border-left: 4px solid #672323;
+	/*width: 750px;*/
 }
 
 .content h1 {
@@ -284,5 +274,5 @@ ul.pages {
 
 .footer p {
 	font-size: 12px;
-	color: #3D1E1E;	
+	color: #3D1E1E;
 }
