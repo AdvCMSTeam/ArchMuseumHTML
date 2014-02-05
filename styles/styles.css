@@ -34,6 +34,10 @@ a:hover                        { text-decoration:none; }
 
 /*--------------------------------------------------------------*/
 
+body {
+	background: url(../images/backgroundot.gif) repeat;
+}
+
 .wrapper {
 	width: 1001px;
 	margin: 0 auto;
@@ -99,7 +103,7 @@ ul.menu-head {
 .sidebar input {
 	border-radius: 50px;
 	border: 2px solid #fff;
-	width: 150px;
+	width: 200px;
 	background:  url(../images/sidebar-bgr.png);
 	padding: 4px 8px;
 }
