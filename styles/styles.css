@@ -47,6 +47,7 @@ body {
 .header {
 	background: url(../images/head-bgr-1.png);
 	padding: 14px 14px 12px 34px;
+	text-align: center;
 }
 
 ul.language {
@@ -67,12 +68,9 @@ span.logo {
 }
 
 .header span.name {
-	font-style: "AquilineTwo Regular", Arial, sans-serif;
 	font-size: 34px;
-	text-indent: -100px;
-	margin: 50px 0 0 150px;
+	text-align: center;
 	color: #F1E6A2;
-	display: inline-block;
 }
 
 ul.menu-head {
@@ -202,7 +200,6 @@ li.further {
 	overflow: hidden;
 	background: url(../images/main-bgr.png);
 	border-left: 4px solid #672323;
-	/*width: 750px;*/
 	min-height: 1200px;
 	position: relative;
 }
@@ -220,6 +217,18 @@ li.further {
 
 .text {
 	margin: 26px 44px;
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+img.text {
+	margin: 0 44px;
+}
+
+ol.text li {
+	list-style-type: decimal;
+	text-indent: 0;
+	margin: 0 0 0 20px;
 }
 
 ul.news {
@@ -309,12 +318,14 @@ ul.pages {
 }
 
 ul.partners {
-	margin: 50px 100px;
+	margin: 50px 130px;
+	text-align: justify;
 }
 
 .partners li {
-	text-align: center;
 	padding: 6px 0;
+	display: inline-block;
+	margin: 0 8px 0 0;
 }
 
 .partners li a {

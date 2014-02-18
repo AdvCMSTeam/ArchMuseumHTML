@@ -29,7 +29,7 @@
 			<img src="images/logo.png" alt="logo" />
 		</a>
 		</span>
-		<span class="name">Черкаський Музей Археології<br />Середньої Наддніпрянщини</span>
+		<span class="name">Черкаський археологічний музей Середньої Наддніпрянщини Черкаського національного університету ім. Богдана Хмельницького і Черкаської міської ради</span>
 		<ul class="menu-head">
 			<li><a href="#">Книга відгуків</a></li>
 			<li><a href="#">Мапа сайту</a></li>
@@ -78,10 +78,10 @@
 				<ul id="menu" class="sidebar-menu">
 					<li><span>Про музей</span>
 					    <ul class="sidebar-submenu">
-					    <li><a href="text.html">Музей сьогодні</a></li>
-						<li><a href="#">Історія музею</a></li>
-						<li><a href="#">Перспективи музею</a></li>
-						<li><a href="#">Наші меценати</a></li>
+					    <li><a href="about.html">Музей сьогодні</a></li>
+						<li><a href="history.html">Історія музею</a></li>
+						<li><a href="perspective.html">Перспективи музею</a></li>
+						<li><a href="mecenat.html">Наші меценати</a></li>
 						<li><a href="#">Дарувальники музею</a></li>
 					    </ul>
 					</li>
@@ -205,7 +205,7 @@
 
 </script>-->
 
-
+<!--
 <script type="text/javascript">
 function init_menu() {
  	$('#menu ul').hide();
@@ -215,7 +215,26 @@ function init_menu() {
  							);
 					}
 	$(document).ready(function() {init_menu();});
+</script>-->
+
+<script type="text/javascript">
+function init_menu() {
+$('#menu ul').hide();
+$('#menu li span').click(
+ function() {
+    var checkElement=$(this).next();
+    if((checkElement.is('ul')) && (checkElement.is(':visible'))) { return false; }
+    if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+        $('#menu ul:visible').slideUp('normal');
+        checkElement.slideDown('normal');
+        return false;
+    }
+ }
+);
+}
+$(document).ready(function() {init_menu();});
 </script>
+
 
 
 </body>
