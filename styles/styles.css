@@ -331,3 +331,8 @@ ul.partners {
 .partners li a {
 	font-weight: bold;
 }
+
+.color {
+	color: red;
+	text-transform: uppercase;
+}
