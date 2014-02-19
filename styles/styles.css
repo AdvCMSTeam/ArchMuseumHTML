@@ -336,3 +336,7 @@ ul.partners {
 	color: red;
 	text-transform: uppercase;
 }
+
+dt.text {
+	margin: 0 44px;
+}
