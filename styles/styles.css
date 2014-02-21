@@ -312,8 +312,20 @@ ul.pages {
 	height: 80px;
 }
 
+.adress {
+	margin: 50px 64px 0 64px;
+}
+
+.adress dt {
+	margin: 12px 0 0;
+}
+
+.adress dd {
+	color: #542A2A;
+}
+
 .map {
-	margin: 80px 0 0 160px;
+	margin: 40px 0 0 160px;
 }
 
 ul.partners {
@@ -362,5 +374,5 @@ ul.partners {
 
 .list-article li {
 	list-style-type: decimal;
-	margin: 20px 64px 20px 80px;
+	margin: 20px 64px 20px 64px;
 }
