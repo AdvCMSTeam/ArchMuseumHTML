@@ -228,7 +228,7 @@ img.text {
 ol.text li {
 	list-style-type: decimal;
 	text-indent: 0;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 44px;
 }
 
 ul.news {
@@ -297,7 +297,6 @@ ul.pages {
 	bottom: 10px;
 	left: 110px;
 	right: 64px;
-
 }
 
 .footer p {
@@ -332,11 +331,36 @@ ul.partners {
 	font-weight: bold;
 }
 
-.color {
-	color: red;
-	text-transform: uppercase;
+.presents {
+	text-indent: 0;
+	font: 14px "Trebuchet MS";
+	margin: 0 44px;
 }
 
-dt.text {
-	margin: 0 44px;
+.list-authors {
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.list-authors-margin {
+	margin: 26px 44px;
+}
+
+.list-authors:hover {
+	text-decoration: underline;
+	color: #542A2A;
+}
+
+.list-authors ul {
+	margin: 26px 44px;
+}
+
+.list-authors-works li {
+	margin: 12px auto;
+}
+
+.list-article li {
+	list-style-type: decimal;
+	margin: 20px 64px 20px 80px;
 }
