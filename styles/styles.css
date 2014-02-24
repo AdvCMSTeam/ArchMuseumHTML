@@ -279,7 +279,6 @@ ul.pages {
 	color: #5F4444;
 	font-size: 14px;
 	text-decoration: none;
-
 }
 
 .pages li a:hover {
@@ -326,6 +325,10 @@ ul.pages {
 
 .map {
 	margin: 40px 0 0 60px;
+}
+
+.addr-name {
+	font-size: 18px;
 }
 
 ul.partners {
