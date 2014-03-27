@@ -379,38 +379,3 @@ ul.partners {
 	list-style-type: decimal;
 	margin: 20px 64px 20px 64px;
 }
-
-ul.expo-list {
-	margin: 50px 0 0;
-}
-
-.expo-list li {
-	margin: 20px 0;
-}
-
-.expo-list h2 a {
-	font-size: 21px;
-	text-decoration: none;
-}
-
-.expo-list h2 a:hover {
-	text-decoration: underline;
-	color: #542A2A;
-}
-
-.expo-text p {
-	padding: 26px 20px 0;
-}
-
-.expo-text img {
-	padding: 26px 16px 16px;
-}
-
-ul.expo-img {
-	margin: 10px auto 20px;
-	text-align: center;
-}
-
-.expo-img li {
-	display: inline;
-}
