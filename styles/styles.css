@@ -151,10 +151,6 @@ li.active a {
 .sidebar-submenu li {
 	background: none;
 }
-/*
-.sidebar-submenu li a:hover {
-	background: url(../images/list-decor.png) left top no-repeat;
-}*/
 
 .notice h3 {
 	text-align: center;
@@ -209,6 +205,7 @@ li.further {
 	background: url(../images/line.png) bottom center no-repeat;
 	padding: 8px 0 10px;
 	font-size: 24px;
+	margin: 0 0 26px;
 }
 
 .content h2 {
@@ -216,7 +213,7 @@ li.further {
 }
 
 .text {
-	margin: 26px 44px;
+	margin: 0 44px 26px;
 	text-indent: 1.5em;
 	text-align: justify;
 }
@@ -398,19 +395,6 @@ ul.expo-list {
 	color: #542A2A;
 }
 
-.expo-text p {
-	padding: 26px 20px 0;
-}
-
-.expo-text img {
-	padding: 26px 16px 16px;
-}
-
-ul.expo-img {
-	margin: 10px auto 20px;
-	text-align: center;
-}
-
-.expo-img li {
-	display: inline;
+#big_image img {
+	margin: 0 26px 16px 44px;
 }
